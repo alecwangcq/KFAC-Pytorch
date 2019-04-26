@@ -13,7 +13,7 @@ args = parser.parse_args()
 vgg16_bn = ''
 vgg19_bn = ''
 resnet = '--depth 110'
-wrn = '--depth 28 --widen-factor 10 --dropRate 0.3'
+wrn = '--depth 28 --widen_factor 10 --dropRate 0.3'
 densenet = '--depth 100 --growthRate 12'
 
 apps = {

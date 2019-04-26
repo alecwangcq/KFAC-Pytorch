@@ -37,7 +37,7 @@ parser.add_argument('--log_dir', default='runs/pretrain', type=str)
 
 
 parser.add_argument('--optimizer', default='kfac', type=str)
-parser.add_argument('--batch_size', default=128, type=float)
+parser.add_argument('--batch_size', default=64, type=float)
 parser.add_argument('--epoch', default=100, type=int)
 parser.add_argument('--milestone', default=None, type=str)
 parser.add_argument('--learning_rate', default=0.01, type=float)
