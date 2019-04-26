@@ -3,7 +3,11 @@ Pytorch implementation of [K-FAC](https://arxiv.org/abs/1503.05671) and [E-KFAC]
 ## Requiresments
 ```
 pytorch 0.4.0
+torchvision
 python 3.6.0
+tqdm
+tensorboardX
+tensorflow
 ```
 ## How to run
 ```
