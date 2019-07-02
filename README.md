@@ -15,7 +15,8 @@ python main.py --dataset cifar10 --optimizer kfac --network vgg16_bn  --epoch 10
 ```
 
 
-## Performance
+## Performance 
+#### Note: for better hyparameters of K-FAC, please refer to [weight_decay](https://github.com/gd-zhang/Weight-Decay/tree/master/configs) repo. (The hyparameters is not good enough! Especially the weight decay is too small!)
 For K-FAC and E-KFAC, the search range of learning rates, weight decay and dampings are:<br>
 (1) learning rate = [3e-2, 1e-2, 3e-3] <br>
 (2) weight decay = [1e-2, 3e-3, 1e-3, 3e-4, 1e-4] <br>
